@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Text Spinner</string>
+<!--    fonts-->
+    <string-array name="Fonts">
+       <item>left</item>
+        <item>centre</item>
+        <item>right</item>
+    </string-array>
+<!--    colors-->
+    <string-array name="Colors">
+        <item>Black</item>
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Orange</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Blue</item>
+    </string-array>
+<!--    styles-->
+    <string-array name="Styles">
+        <item>Times New Roman</item>
+        <item>Cursive</item>
+        <item>Sans Serif</item>
+        <item>Aclonia</item>
+    </string-array>
+</resources>
