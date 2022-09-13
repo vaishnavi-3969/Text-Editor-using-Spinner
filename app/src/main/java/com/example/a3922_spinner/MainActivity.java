@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         ArrayAdapter<CharSequence> adapter3 = ArrayAdapter.createFromResource(this,R.array.Styles, android.R.layout.simple_spinner_item);
         adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner1.setAdapter(adapter1);
-//        spinner1.setOnItemSelectedListener(this);
         spinner1.setOnItemSelectedListener(
                 new AdapterView.OnItemSelectedListener() {
                     public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
@@ -141,12 +140,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     public void onNothingSelected(AdapterView<?> parent) {
                     }
                 });
-//        Spinner spinnerText1 = (Spinner)findViewById(R.id.spinnerWheelColor);
-//        String text1 = spinner1.getSelectedItem().toString();
-//        Spinner spinnerText2 = (Spinner)findViewById(R.id.spinnerWheelAlignment);
-//        String text2 = spinner2.getSelectedItem().toString();
-//        Spinner spinnerText3 = (Spinner)findViewById(R.id.spinnerWheelSize);
-//        String text3 = spinner2.getSelectedItem().toString();
     }
 
     @Override
