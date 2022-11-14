@@ -63,6 +63,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                                 break;
                             case "Cyan":
                                 editText.setTextColor(Color.CYAN);
+                            case "White":
+                                editText.setTextColor(Color.WHITE);
+                                break;
                         }
                     }
                     public void onNothingSelected(AdapterView<?> parent) {
